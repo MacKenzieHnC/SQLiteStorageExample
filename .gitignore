@@ -34,7 +34,8 @@ local.properties
 
 # node.js
 #
-node_modules/
+node_modules/*
+!node_modules/react-native-sqlite-storage/
 npm-debug.log
 yarn-error.log
 
