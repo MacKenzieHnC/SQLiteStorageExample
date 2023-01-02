@@ -10,6 +10,7 @@ const App = () => {
     (async () => {
       var d = await getData();
       setMyData(d);
+      setIndex(d[d.length - 1].id + 1);
     })();
   }, [index]);
 
